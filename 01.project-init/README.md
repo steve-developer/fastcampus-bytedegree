@@ -10,7 +10,7 @@ PROJECT INIT RENEWAL
 #### 동일한 부분
 * Lombok annotation processing 설정 <br>
 window : 왼쪽 상단 위 file -> settings -> build, Execution, Deveployment -> Compiler > Annotation Processors -> Enable annotation prossing 체크 <br>
-<img src="/01.project-init/images/20201017_151448.png" width="300" height="300"></img>
+<img src="/01.project-init/images/20201017_151448.png" width="400" height="600"></img>
 
 
 
@@ -23,7 +23,7 @@ window : 왼쪽 상단 위 file -> settings -> build, Execution, Deveployment ->
 <br>
 적용 비교
 
-[before]
+[before] application.properties
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/fastcampus?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
 spring.datasource.username=root
@@ -39,7 +39,7 @@ logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
 
 ```
 
-[after]
+[after] application.yaml
 ```
 
 spring:
@@ -81,5 +81,5 @@ services:
       - --character-set-server=utf8mb4
       - --collation-server=utf8mb4_unicode_ci
     volumes:
-      - G:\mysql/factcampus/backoffice/data:/var/lib/mysql
+      - G:\mysql/factcampus/backoffice/data:/var/lib/mysql # 해당 경로는 자신의 환경에 맞게 조절 하세요
 ```

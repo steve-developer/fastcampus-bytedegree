@@ -11,4 +11,4 @@ services:
       - --character-set-server=utf8mb4
       - --collation-server=utf8mb4_unicode_ci
     volumes:
-      - G:\mysql/factcampus/backoffice/data:/var/lib/mysql
+      - G:\mysql/factcampus/backoffice/data:/var/lib/mysql # 해당 경로는 자신의 환경에 맞게 조절 하세요
