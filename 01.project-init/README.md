@@ -3,7 +3,7 @@ PROJECT INIT RENEWAL
 
 소개
 ----
-이전 수업 내용 [01. project-int](https://github.com/StudyIsEasy/fastcampus-studyadmin/tree/feature/01-projectinit) 의 수정 버전 입니다.
+이전 수업 내용 [01. project-init](https://github.com/StudyIsEasy/fastcampus-studyadmin/tree/feature/01-projectinit) 의 수정 버전 입니다.
 수정이 된 부분은 아래와 같습니다.
 ***
 
