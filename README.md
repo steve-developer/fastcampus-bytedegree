@@ -1,4 +1,4 @@
-# FASTCAMPUS-BACKOFFICE
+# FAST CAMPUS BACKOFFICE
 
 FastCampus Java 바이트 디그리 과정 Renewal
 ======
@@ -41,7 +41,7 @@ FastCampus Java 바이트 디그리 과정 Renewal
 
 #### 업데이트 된 build.gradle 파일
 
-[before]
+[before 이전 버전]
 ```
 plugins {
     id 'org.springframework.boot' version '2.2.6.RELEASE'
@@ -81,7 +81,7 @@ test {
 ```
 
 
-[after]
+[after 적용 버전]
 ```
 plugins {
     id 'org.springframework.boot' version '2.3.4.RELEASE'
