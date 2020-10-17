@@ -11,7 +11,6 @@ PROJECT INIT RENEWAL
 * Lombok annotation processing 설정 <br>
 window : 왼쪽 상단 위 file -> settings -> build, Execution, Deveployment -> Compiler > Annotation Processors -> Enable annotation prossing 체크 <br><br>
 macOS : 왼쪽 상단 위 IntelliJ IDEA -> Preferences ->  build, Execution, Deveployment -> Compiler > Annotation Processors -> Enable annotation prossing 체크 <br>
-
 <img src="/01.project-init/images/20201017_151448.png" width="800" height="700"></img>
 
 

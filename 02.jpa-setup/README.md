@@ -11,7 +11,6 @@ PROJECT JPA SETUP RENEWAL
 * Lombok annotation processing 설정 <br>
 window : 왼쪽 상단 위 file -> settings -> build, Execution, Deveployment -> Compiler > Annotation Processors -> Enable annotation prossing 체크 <br><br>
 macOS : 왼쪽 상단 위 IntelliJ IDEA -> Preferences ->  build, Execution, Deveployment -> Compiler > Annotation Processors -> Enable annotation prossing 체크 <br>
-
 <img src="/01.project-init/images/20201017_151448.png" width="800" height="700"></img>
 
 * 또는 아래처럼 프로젝트 진행시에 오른쪽 하단 경고 창을 통해서 설정 할 수 있습니다.<br><br>
@@ -205,7 +204,7 @@ logging:
 #### JPA 주요내용
 1. com.fastcampus.backoffice.config.JpaConfig
     ```
-    @Configurable           // Spring에서 Config를 적용할때 설정하는 annotation
+    @Configuration          // Spring에서 Config를 적용할때 설정하는 annotation
     @EnableJpaAuditing      // Jpa Auditing 활성화 
     public class JpaConfig {
     }
