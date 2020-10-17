@@ -12,7 +12,7 @@ PROJECT INIT RENEWAL
 window : 왼쪽 상단 위 file -> settings -> build, Execution, Deveployment -> Compiler > Annotation Processors -> Enable annotation prossing 체크 <br><br>
 macOS : 왼쪽 상단 위 IntelliJ IDEA -> Preferences ->  build, Execution, Deveployment -> Compiler > Annotation Processors -> Enable annotation prossing 체크 <br>
 
-<img src="/01.project-init/images/20201017_151448.png" width="600" height="600"></img>
+<img src="/01.project-init/images/20201017_151448.png" width="800" height="700"></img>
 
 
 
@@ -87,16 +87,16 @@ services:
 
 #### MySQL SCHEMA 생성 <br><br>
 1. MySQL Workbench로 접속 <br><br>
-<img src="/01.project-init/images/20201017_150845.png" width="800" height="400"></img><br><br>
+<img src="/01.project-init/images/20201017_150845.png" width="1200" height="500"></img><br><br>
 
 2. 왼쪽 상단 + sql 아이콘 클릭 sql 명령어 실행 <br><br>
-<img src="/01.project-init/images/20201017_163055.png" width="800" height="400"></img><br><br>
+<img src="/01.project-init/images/20201017_163055.png" width="1200" height="500"></img><br><br>
     ```
     CREATE SCHEMA `fastcampus` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin ;
     ```
 3. 왼쪽 상단 새로 고침 버튼을 눌러서 생성된 Schema 확인 <br><br>
-<img src="/01.project-init/images/20201017_163625.png" width="800" height="400"></img><br><br>
+<img src="/01.project-init/images/20201017_163625.png" width="1200" height="500"></img><br><br>
 
 4. Application 실행하여 정상 적인 실행 확인 <br><br>
-<img src="/01.project-init/images/20201017_151302.png" width="800" height="400"></img><br><br>
+<img src="/01.project-init/images/20201017_151302.png" width="1200" height="500"></img><br><br>
 
