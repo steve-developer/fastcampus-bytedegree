@@ -10,7 +10,7 @@ PROJECT INIT RENEWAL
 #### 동일한 부분
 * Lombok annotation processing 설정 <br>
 window : 왼쪽 상단 위 file -> settings -> build, Execution, Deveployment -> Compiler > Annotation Processors -> Enable annotation prossing 체크 <br>
-<img src="/01.project-init/images/20201017_151448.png" width="400" height="600"></img>
+<img src="/01.project-init/images/20201017_151448.png" width="500" height="600"></img>
 
 
 
