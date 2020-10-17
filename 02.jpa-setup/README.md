@@ -1,4 +1,4 @@
-PROJECT INIT RENEWAL
+PROJECT JPA SETUP RENEWAL
 ====================
 
 소개
@@ -24,6 +24,7 @@ macOS : 왼쪽 상단 위 IntelliJ IDEA -> Preferences ->  build, Execution, Dev
 #### 변경점 ( 필수 변경 X ) 기존 강의대로 진행 해도 괜찮지만 조금더 편리하게 변경 하였습니다.
 * src/main/java/resources/application.properties -> src/main/java/resources/application.yaml 변경 <br>
 * src/main/java/resources/application.yaml 에 jpa 관련 자동 실행 추가 <br><br>
+
 [before 예전 application.properties]
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/fastcampus?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
