@@ -65,6 +65,10 @@ logging:
     hibernate.type.descriptor.sql.BasicBinder: trace
 ```
 
+<br><br>
+
+#### 잘 안되는 경우 새로 추가된 옵션을 제거 하고 아래의 순서대로 실행하여 MySQL SCHEMA 생성 <br><br>
+
 [자동실행이 잘 안되는 경우 새로 추가한 옵션 제거 application.yaml]
 ```
 spring:
@@ -87,7 +91,6 @@ logging:
 ```
 <br><br>
 
-#### 잘 안되는 경우 새로 추가된 옵션을 제거 하고 아래의 순서대로 실행하여 MySQL SCHEMA 생성 <br><br>
 1. MySQL Workbench로 접속 <br><br>
 <img src="/01.project-init/images/20201017_150845.png" width="1200" height="500"></img><br><br>
 
