@@ -95,7 +95,7 @@ logging:
 <img src="/01.project-init/images/20201017_150845.png" width="1200" height="500"></img><br><br>
 
 2. 왼쪽 상단 + sql 아이콘 클릭 sql 명령어 실행 <br><br>
-<img src="/01.project-init/images/20201017_163055.png" width="1200" height="500"></img><br><br>
+<img src="/02.jpa-setup/images/20201017_183947.png" width="1200" height="500"></img><br><br>
     ```
     -- -----------------------------------------------------
     -- Schema fastcampus
@@ -196,7 +196,7 @@ logging:
     COMMENT = '수강목록';
     ```
 3. 왼쪽 상단 새로 고침 버튼을 눌러서 생성된 Schema 및 Table 확인 <br><br>
-<img src="/01.project-init/images/20201017_183739.png" width="1200" height="500"></img><br><br>
+<img src="/02.jpa-setup/images/20201017_183739.png" width="1200" height="500"></img><br><br>
 
 4. Application 실행하여 정상 적인 실행 확인 <br><br>
 <img src="/01.project-init/images/20201017_151302.png" width="1200" height="500"></img><br><br>
